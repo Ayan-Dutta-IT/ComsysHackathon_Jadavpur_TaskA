@@ -11,10 +11,10 @@ A PyTorch-based deep learning project for binary gender classification using fac
 - **Modular Design**: Clean separation of concerns across multiple files
 
 ## Project Structure
-
+Download link for model - https://drive.google.com/file/d/13rTJIkq_diaEp28wCgE5jsdqeAuHnDkQ/view?usp=sharing
 ```
 ├── model/
-    ├── best_gender_model.pth         Downlaod from drive Link - https://drive.google.com/file/d/13rTJIkq_diaEp28wCgE5jsdqeAuHnDkQ/view?usp=sharing
+    ├── best_gender_model.pth         
 ├── Task_A/
     ├── config.py              # Configuration settings
     ├── dataset.py             # Dataset class and data loading
