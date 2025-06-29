@@ -13,22 +13,24 @@ A PyTorch-based deep learning project for binary gender classification using fac
 ## Project Structure
 
 ```
-gender-classification/
-├── config.py              # Configuration settings
-├── dataset.py             # Dataset class and data loading
-├── model.py               # Neural network architecture
-├── trainer.py             # Training logic
-├── utils.py               # Utility functions (plotting, evaluation)
-├── main.py                # Main training script
-├── test.py                # Test script
-├── requirements.txt       # Dependencies
-└── data/                  # Dataset directory
-    ├── train/
-    │   ├── male/
-    │   └── female/
-    └── val/
-        ├── male/
-        └── female/
+├── model/
+    ├── best_gender_model.pth         Downlaod from drive Link - https://drive.google.com/file/d/13rTJIkq_diaEp28wCgE5jsdqeAuHnDkQ/view?usp=sharing
+├── Task_A/
+    ├── config.py              # Configuration settings
+    ├── dataset.py             # Dataset class and data loading
+    ├── model.py               # Neural network architecture
+    ├── trainer.py             # Training logic
+    ├── utils.py               # Utility functions (plotting, evaluation)
+    ├── main.py                # Main training script
+    ├── test.py                # Test script
+    ├── requirements.txt       # Dependencies
+    └── data/                  # Dataset directory
+        ├── train/
+        │   ├── male/
+        │   └── female/
+        └── val/
+            ├── male/
+            └── female/
 ```
 
 ## Setup
